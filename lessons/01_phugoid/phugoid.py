@@ -15,12 +15,13 @@ def radius_of_curvature(y, yt, C):
         initial depth below the reference horizontal line.
     C : float
         constant of integration.
-
+	insert something for test
     Returns
     -------
     radius : float
         radius of curvature.
     """
+
     #return 2./(C*(1./y)**1.5 - 2./3./yt)
     return -1*yt / (1./3 - C/2.*(yt/y)**1.5)
 
